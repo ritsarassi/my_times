@@ -1,7 +1,30 @@
+/*header style*/
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
   display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  position: fixed;
+  height: 80px;
+  z-index: 1;
+  padding: 20px 40px;
+}
+.logo {
+  justify-content: center;
+  align-items: center;
+  color: MediumAquamarine;
+  display: inline-flex;
+  }
+.logo p {
+  display: inline-flex;
+  justify-content: center;
+  padding-left: 10px;
+}
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 20px 10px;
 }
