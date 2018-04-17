@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+
+}
 /*header style*/
 header {
   font-family: Verdana;
@@ -11,20 +15,27 @@ header {
   height: 80px;
   z-index: 1;
   padding: 20px 40px;
+  background-color: white;
 }
 .logo {
-  justify-content: center;
+  display: flex;
   align-items: center;
-  color: MediumAquamarine;
-  display: inline-flex;
+  flex-grow: 1;
   }
 .logo p {
-  display: inline-flex;
-  justify-content: center;
-  padding-left: 10px;
+  color: MediumAquamarine;
+
 }
-nav li {
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+li {
   display: inline-block;
   list-style-type: none;
-  padding: 20px 10px;
+  padding-right: 50px;
+}
+a {
+  color: black;
 }
