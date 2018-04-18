@@ -86,9 +86,10 @@ a {
   text-align: center;
   border: 1px solid black;
   height: 300px;
+  margin-top: 15px;
 }
 
-.image2 nav {
+.image2 span {
   color: white;
   font-size: 30px;
   font-family: Georgia;
@@ -100,10 +101,11 @@ a {
   display: flex;
   background-image: url('../images/img-story-3.png');
   border: 1px solid black;
-  height:290px;
+  height: 300px;
+  margin-top: 15px;
 }
 
-.image3 nav {
+.image3 span {
   color: white;
   font-size: 30px;
   font-family: Georgia;
@@ -112,13 +114,22 @@ a {
 .stories {
 display: flex;
 justify-content: space-between;
+margin-top: 17px;
+}
+
+.stories .text-content{
+  height: 250px;
 }
 
 .story {
   display: flex;
   flex-direction: column;
-
+  width: 300px;
   border: 1px solid black;
+}
+
+.text2 {
+  margin-top: 16px;
 }
 
 
