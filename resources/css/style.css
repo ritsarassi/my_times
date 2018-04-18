@@ -3,6 +3,7 @@ body {
  }
 
 /*header style*/
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -14,11 +15,10 @@ header {
   position: fixed;
   height: 80px;
   z-index: 1;
-
   margin-top: 0;
   background-color: white;
 }
-
+/*My Times logo*/
 .logo {
   display: flex;
   align-items: center;
@@ -58,8 +58,6 @@ a {
   display: flex;
   width: 630px;
   padding: 20px 10px;
-  border: 1px solid black;
-  padding: 10px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -69,10 +67,10 @@ a {
 .image-main {
   background-image: url('../images/img-story-main.png');
   display: flex;
-  border: 1px solid black;
   height: 300px;
   width: auto;
 }
+
 .image-main nav {
   color: white;
   font-size: 40px;
@@ -84,9 +82,8 @@ a {
   display: flex;
   background-image: url('../images/img-story-2.png');
   text-align: center;
-  border: 1px solid black;
   height: 300px;
-  margin-top: 15px;
+  margin-top: 85px;
 }
 
 .image2 span {
@@ -94,15 +91,13 @@ a {
   font-size: 30px;
   font-family: Georgia;
   font-weight: bold;
-
 }
 
 .image3 {
   display: flex;
   background-image: url('../images/img-story-3.png');
-  border: 1px solid black;
   height: 300px;
-  margin-top: 15px;
+  margin-top: 85px;
 }
 
 .image3 span {
@@ -111,10 +106,11 @@ a {
   font-family: Georgia;
   font-weight: bold;
 }
+
 .stories {
-display: flex;
-justify-content: space-between;
-margin-top: 17px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
 .stories .text-content{
@@ -125,11 +121,11 @@ margin-top: 17px;
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid black;
+  height: 800px;
 }
 
-.text2 {
-  margin-top: 16px;
+.text-content h2 {
+  padding: 10px;
 }
 
 
@@ -150,9 +146,8 @@ margin-top: 17px;
   background-image: url('../images/img-story-1.png');
   text-align: center;
   height: 240px;
-
-
 }
+
 .image1 nav {
   color: white;
   font-size: 30px;
@@ -169,10 +164,12 @@ margin-top: 17px;
   margin: 10px;
   flex-direction: column;
 }
-h2 {
+
+.small h2 {
   font-size: 16px;
   font-weight: bold;
 }
+/*News Bites section*/
 .news-bites {
   background-color: WhiteSmoke;
   font-family: Verdana;
@@ -208,6 +205,7 @@ h2 {
   padding-right: 25px;
   border-right: 2px solid white;
 }
+
 .footer nav {
   display: inline-block;
   padding-left: 25px;
