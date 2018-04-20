@@ -13,6 +13,7 @@ header {
   width: 100%;
   border-bottom: 1px solid black;
   position: fixed;
+  top: 0;
   height: 80px;
   z-index: 1;
   margin-top: 0;
@@ -33,6 +34,7 @@ header {
   width: 70px;
   height: 60px;
   margin-right: 12px;
+
 }
 
 li {
@@ -44,7 +46,7 @@ li {
 a {
   color: black;
 }
-
+/*Main container*/
 .main {
   display: flex;
   padding-top: 130px;
